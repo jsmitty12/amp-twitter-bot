@@ -1,0 +1,13 @@
+<?php
+/**
+ * @author Adam Englander <adamenglander@yahoo.com>
+ * @copyright 2017 Adam L. Englander. See project license for usage.
+ */
+
+// These values are found on the "Keys and Access Tokens" tab of your
+// Twitter Application found at https://apps.twitter.com
+$key = "Your Consumer Key (API Key) Goes Here";
+$secret = "Your Consumer Secret (API Secret) Goes Here";
+$token = "Your Access Token Goes Here";
+$tokenSecret = "Your Access Token Secret Goes Here";
+$twitterUser = "Your Twitter username (no @) Goes Here";
