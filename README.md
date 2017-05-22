@@ -67,3 +67,17 @@ The Twitter Bot will connect to the Twitter User Stream API
 and and respond to every update matching the filter criteria
 that was not from itself. You can press
 ```<CTRL><c>``` at any point to end the stream.
+
+### Twitter Stream Portal
+
+The Twitter Stream Portal will start a website that serves up
+a Twitter feed to multiple browsers through the magic of
+Web Sockets.
+
+Run ```vendor/bin/aerys -c config.php -d``` to start the Aerys
+web server and start broadcasting the stream. You can press
+```<CTRL><c>``` at any point to end the stream.
+
+Once the server is started, simply access the web server on port
+8080 on any IP for your computer. Most will work for localhost
+at [http://localhost:8080/](http://localhost:8080/).

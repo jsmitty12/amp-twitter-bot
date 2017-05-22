@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor</title>
+</head>
+<body>
+<h1>Twitter Bot Monitor</h1>
+<h2>Logs</h2>
+<div id="logs"></div>
+<div id="bottom"></div>
+<script type="text/javascript">
+    var ws = new WebSocket("ws://" + window.location.host + "/ws"),
+        logs = document.getElementById("logs");
+    function writeLog(user, message) {
+        var item = document.createElement("div"),
+            usr = document.createElement("h5"),
+            msg = document.createElement("pre");
+
+        usr.appendChild(document.createTextNode(user));
+        msg.appendChild(document.createTextNode(message));
+        item.appendChild(usr);
+        item.appendChild(msg);
+        logs.insertBefore(item, logs.firstChild);
+        if (logs.childElementCount > 5) {
+            logs.removeChild(logs.lastElementChild)
+        }
+    }
+
+    ws.onopen = function() {
+        writeLog("Browser", "Connected");
+    };
+
+    ws.onmessage = function(msgEvent) {
+        data = JSON.parse(msgEvent.data);
+        writeLog(data['user'], data['message']);
+    };
+
+    ws.onerror = ws.onclose = function(e) {
+        writeLog("Browser", "Disconnected! Refresh to start again");
+    };
+</script>
+</body>
+</html>
