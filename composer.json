@@ -1,5 +1,7 @@
 {
     "require": {
+        "php-64bit": "^7.0",
+        "ext-intl": "*",
         "amphp/amp": "^1.2",
         "amphp/artax": "^2.0",
         "league/oauth2-client": "^2.2",

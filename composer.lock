@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "86903ac083d82e06bde7171613e2548e",
-    "content-hash": "a0328aea1f064b686b3d3693edf9d8a9",
+    "content-hash": "c6a63e6c1114c0e331a1d8912dc2b077",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -59,7 +58,7 @@
                 "social",
                 "twitter"
             ],
-            "time": "2016-12-12 17:42:13"
+            "time": "2016-12-12T17:42:13+00:00"
         },
         {
             "name": "aenglander/artax-twitter-oauth",
@@ -101,7 +100,7 @@
                 }
             ],
             "description": "Artax based client for Twitter API",
-            "time": "2017-05-20 06:34:01"
+            "time": "2017-05-20T06:34:01+00:00"
         },
         {
             "name": "amphp/aerys",
@@ -181,7 +180,7 @@
                 "server",
                 "websocket"
             ],
-            "time": "2017-02-27 13:32:41"
+            "time": "2017-02-27T13:32:41+00:00"
         },
         {
             "name": "amphp/amp",
@@ -238,7 +237,7 @@
                 "non-blocking",
                 "promise"
             ],
-            "time": "2016-05-12 12:54:59"
+            "time": "2016-05-12T12:54:59+00:00"
         },
         {
             "name": "amphp/artax",
@@ -296,7 +295,7 @@
                 "parallel",
                 "rest"
             ],
-            "time": "2016-08-08 16:27:01"
+            "time": "2016-08-08T16:27:01+00:00"
         },
         {
             "name": "amphp/cache",
@@ -344,7 +343,7 @@
             ],
             "description": "A promise-aware caching API built on the amp concurrency framework",
             "homepage": "https://github.com/amphp/cache",
-            "time": "2015-09-08 22:26:20"
+            "time": "2015-09-08T22:26:20+00:00"
         },
         {
             "name": "amphp/dns",
@@ -414,7 +413,7 @@
                 "dns",
                 "resolve"
             ],
-            "time": "2017-02-05 22:17:40"
+            "time": "2017-02-05T22:17:40+00:00"
         },
         {
             "name": "amphp/file",
@@ -474,7 +473,7 @@
                 "non-blocking",
                 "static"
             ],
-            "time": "2016-10-01 17:43:52"
+            "time": "2016-10-01T17:43:52+00:00"
         },
         {
             "name": "amphp/process",
@@ -517,7 +516,7 @@
             ],
             "description": "Asynchronous process manager",
             "homepage": "https://github.com/amphp/process",
-            "time": "2016-09-24 10:49:26"
+            "time": "2016-09-24T10:49:26+00:00"
         },
         {
             "name": "amphp/socket",
@@ -572,7 +571,7 @@
                 "tcp",
                 "tls"
             ],
-            "time": "2016-07-18 22:03:24"
+            "time": "2016-07-18T22:03:24+00:00"
         },
         {
             "name": "amphp/windows-registry",
@@ -610,7 +609,7 @@
                 }
             ],
             "description": "Windows Registry Reader.",
-            "time": "2017-01-04 23:52:31"
+            "time": "2017-01-04T23:52:31+00:00"
         },
         {
             "name": "daverandom/exceptional-json",
@@ -645,7 +644,7 @@
                 }
             ],
             "description": "JSON encoding and decoding that throws exceptions on failure",
-            "time": "2016-05-04 15:52:54"
+            "time": "2016-05-04T15:52:54+00:00"
         },
         {
             "name": "daverandom/libdns",
@@ -678,7 +677,7 @@
             "keywords": [
                 "dns"
             ],
-            "time": "2016-04-29 20:47:45"
+            "time": "2016-04-29T20:47:45+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -740,7 +739,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-02-28 22:50:30"
+            "time": "2017-02-28T22:50:30+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -791,7 +790,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -856,7 +855,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "league/climate",
@@ -907,7 +906,7 @@
                 "php",
                 "terminal"
             ],
-            "time": "2016-04-04 20:24:59"
+            "time": "2016-04-04T20:24:59+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -974,7 +973,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2017-04-25 14:43:14"
+            "time": "2017-04-25T14:43:14+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -1017,7 +1016,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2017-01-19 11:35:12"
+            "time": "2017-01-19T11:35:12+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1065,7 +1064,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13 16:27:32"
+            "time": "2017-03-13T16:27:32+00:00"
         },
         {
             "name": "peehaa/async-twitter",
@@ -1117,7 +1116,7 @@
                 "parallel",
                 "twitter"
             ],
-            "time": "2017-02-26 12:56:37"
+            "time": "2017-02-26T12:56:37+00:00"
         },
         {
             "name": "psr/http-message",
@@ -1167,7 +1166,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -1214,7 +1213,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -1262,7 +1261,7 @@
                 "input",
                 "prompt"
             ],
-            "time": "2017-03-18 11:32:45"
+            "time": "2017-03-18T11:32:45+00:00"
         }
     ],
     "packages-dev": [],
@@ -1273,6 +1272,9 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php-64bit": "^7.0",
+        "ext-intl": "*"
+    },
     "platform-dev": []
 }
